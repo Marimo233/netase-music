@@ -9,10 +9,12 @@ import TabBar from './components/TabBar'
 import Header from './components/Header'
 import Main from './pages'
 
+import './App.css'
+
 export default class App extends Component {
   render() {
     return (
-      <div style={{display:"flex",height:500}}>
+      <div className="App">
       <Header></Header>
         <Main>
         <Switch>
