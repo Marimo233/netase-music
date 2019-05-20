@@ -1,0 +1,17 @@
+.TabBar{
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+  .detail{
+    text-align: center;
+    font-size: 14px;
+    .iconfont{
+      font-size: 22px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

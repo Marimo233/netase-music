@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding-top: 10px;
+  b{
+    font-size: 24px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  .search{
+    position: relative;
+    flex: 1;
+    .search-icon{
+      position: absolute;
+      display: flex;
+      font-size: 14px;
+      color: #666666;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      .icon-sousuo{
+        font-size: 18px;
+        margin-right: 2px;
+      }
+    }
+    input{
+      border-radius: 15px;
+      border:none;
+      height: 30px;
+      width: 100%;
+    }
+  }
+  .icon-vynil{
+    font-size: 25px;
+    display: block;
+    color: white;
+    margin:0 10px 0 20px;
+  }
+}
